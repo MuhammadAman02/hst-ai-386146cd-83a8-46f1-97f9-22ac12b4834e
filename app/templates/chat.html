@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h1>Medical Chatbot</h1>
+        <div class="chat-box" id="chatBox"></div>
+        <form id="chatForm">
+            <input type="text" id="userInput" placeholder="Type your medical question here..." required>
+            <button type="submit">Send</button>
+        </form>
+        <div class="disclaimer">
+            <p>Disclaimer: This chatbot is for informational purposes only and does not provide medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider for medical concerns.</p>
+        </div>
+    </div>
+    <script src="/static/chat.js"></script>
+</body>
+</html>
